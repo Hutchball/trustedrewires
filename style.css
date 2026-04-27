@@ -596,6 +596,56 @@ header {
   font-style: italic;
 }
 
+/* ---- CTA Strip ---- */
+.cta-strip {
+  background: linear-gradient(135deg, var(--amber) 0%, var(--amber-dark) 100%);
+  padding: 52px 0;
+}
+
+.cta-strip-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+}
+
+.cta-strip-headline {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: var(--navy);
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.cta-strip-sub {
+  font-size: 1.1rem;
+  color: var(--navy);
+  opacity: 0.8;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.cta-strip .btn-primary {
+  background: var(--navy);
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(15,37,68,0.3);
+  white-space: nowrap;
+}
+
+.cta-strip .btn-primary:hover {
+  background: var(--navy-light);
+  box-shadow: 0 6px 20px rgba(15,37,68,0.4);
+}
+
+@media (min-width: 768px) {
+  .cta-strip-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
 /* ---- Pricing ---- */
 .price-cards {
   display: grid;
