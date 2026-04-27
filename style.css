@@ -838,6 +838,11 @@ header {
   outline: none;
 }
 
+.form-row input::placeholder,
+.form-row textarea::placeholder {
+  color: #6b7280;
+}
+
 .form-row input:focus,
 .form-row select:focus,
 .form-row textarea:focus {
