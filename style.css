@@ -104,7 +104,7 @@ header {
 /* ---- Hero ---- */
 .hero {
   position: relative;
-  background: url('desk.avif') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1752500501211-b75d9d4f43ba?w=1400&q=80') center/cover no-repeat;
   min-height: 560px;
   display: flex;
   align-items: center;
