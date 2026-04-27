@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trusted Rewires UK — Liverpool's Electrical Rewiring Specialists</title>
   <meta name="description" content="Fast, friendly, certified rewires across Liverpool and Merseyside. Free no-obligation quote. Safe, tidy, and fully certified. Local team, straight answers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- Open Graph -->
@@ -48,7 +51,8 @@
   <section class="hero">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-      <h1>Is your home's wiring safe?</h1>
+      <div class="hero-eyebrow">Liverpool &amp; Merseyside's Rewiring Specialists</div>
+      <h1>Is your home's wiring <span>safe?</span></h1>
       <p class="hero-sub">Fast, friendly, certified rewires across Liverpool and Merseyside. We leave your home safe and tidy — and the quote is always free with no obligation.</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
@@ -176,36 +180,42 @@
       <div class="testimonials-grid">
 
         <div class="testimonial">
-          <div class="testimonial-photo">
-            <img src="https://picsum.photos/seed/sarah/120/120" alt="Sarah, Liverpool" loading="lazy">
+          <div class="testimonial-header">
+            <div class="testimonial-photo">
+              <img src="https://picsum.photos/seed/sarah/120/120" alt="Sarah T, Wavertree" loading="lazy">
+            </div>
+            <div class="testimonial-meta">
+              <cite>Sarah T.</cite>
+              <div class="stars">★★★★★</div>
+            </div>
           </div>
-          <blockquote>
-            "We'd just bought a 1960s terrace in Wavertree and had no idea the wiring was so old. The team came out the same week, explained everything clearly, and had it all done in five days. Left the house spotless. Couldn't recommend them enough."
-          </blockquote>
-          <cite>Sarah T. — Wavertree, Liverpool</cite>
-          <div class="stars">★★★★★</div>
+          <blockquote>"We'd just bought a 1960s terrace in Wavertree and had no idea the wiring was so old. The team came out the same week, explained everything clearly, and had it all done in five days. Left the house spotless."</blockquote>
         </div>
 
         <div class="testimonial">
-          <div class="testimonial-photo">
-            <img src="https://picsum.photos/seed/derekliv/120/120" alt="Derek, Crosby" loading="lazy">
+          <div class="testimonial-header">
+            <div class="testimonial-photo">
+              <img src="https://picsum.photos/seed/derekliv/120/120" alt="Derek M, Crosby" loading="lazy">
+            </div>
+            <div class="testimonial-meta">
+              <cite>Derek M. — Crosby</cite>
+              <div class="stars">★★★★★</div>
+            </div>
           </div>
-          <blockquote>
-            "I'm 72 and I was nervous about having work done. They were patient, explained every step, and there was never any pressure. The price they quoted was the price I paid. Lovely lads."
-          </blockquote>
-          <cite>Derek M. — Crosby, Merseyside</cite>
-          <div class="stars">★★★★★</div>
+          <blockquote>"I'm 72 and I was nervous about having work done. They were patient, explained every step, and there was never any pressure. The price they quoted was the price I paid. Lovely lads."</blockquote>
         </div>
 
         <div class="testimonial">
-          <div class="testimonial-photo">
-            <img src="https://picsum.photos/seed/priya/120/120" alt="Priya, Allerton" loading="lazy">
+          <div class="testimonial-header">
+            <div class="testimonial-photo">
+              <img src="https://picsum.photos/seed/priya/120/120" alt="Priya K, Allerton" loading="lazy">
+            </div>
+            <div class="testimonial-meta">
+              <cite>Priya K. — Allerton</cite>
+              <div class="stars">★★★★★</div>
+            </div>
           </div>
-          <blockquote>
-            "My mortgage surveyor flagged the wiring as a concern. Trusted Rewires sorted it fast — I got my certificate within a week and the sale went through without a problem. Really professional."
-          </blockquote>
-          <cite>Priya K. — Allerton, Liverpool</cite>
-          <div class="stars">★★★★★</div>
+          <blockquote>"My mortgage surveyor flagged the wiring as a concern. Trusted Rewires sorted it fast — I got my certificate within a week and the sale went through without a problem. Really professional."</blockquote>
         </div>
 
       </div>
@@ -218,18 +228,24 @@
     <div class="container">
       <h2>How much does a rewire cost?</h2>
       <p class="section-intro">We believe in being upfront about money. Every property is different, but here's a rough guide for Liverpool:</p>
-      <div class="price-table-wrap">
-        <table class="price-table">
-          <thead>
-            <tr><th>Property</th><th>Typical Range</th></tr>
-          </thead>
-          <tbody>
-            <tr><td>1-bed flat</td><td>£2,500 – £4,000</td></tr>
-            <tr><td>2-bed house</td><td>£3,000 – £5,000</td></tr>
-            <tr><td>3-bed house</td><td>£4,500 – £8,000</td></tr>
-            <tr><td>4-bed house</td><td>£6,000 – £10,000</td></tr>
-          </tbody>
-        </table>
+      <div class="price-cards">
+        <div class="price-card">
+          <div class="price-card-type">1-bed flat</div>
+          <div class="price-card-range">£2,500 – £4,000</div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-type">2-bed house</div>
+          <div class="price-card-range">£3,000 – £5,000</div>
+        </div>
+        <div class="price-card price-card-featured">
+          <div class="price-card-type">3-bed house</div>
+          <div class="price-card-range">£4,500 – £8,000</div>
+          <div class="price-card-tag">Most common</div>
+        </div>
+        <div class="price-card">
+          <div class="price-card-type">4-bed house</div>
+          <div class="price-card-range">£6,000 – £10,000</div>
+        </div>
       </div>
       <p class="pricing-note">The only way to give you an accurate quote is to see the property. That's why we offer a <strong>free no-obligation survey</strong> — we'll give you a fixed price before any work starts.</p>
     </div>
@@ -300,7 +316,7 @@
       <p><strong>Trusted Rewires UK — Liverpool Branch</strong></p>
       <p>Covering all Merseyside postcodes · NICEIC Certified · Fully Insured</p>
       <p><a href="tel:+447849092460">07849 092460</a> · <a href="mailto:hello@trustedrewires.co.uk">hello@trustedrewires.co.uk</a></p>
-      <p class="footer-copy">© 2025 Trusted Rewires UK. All rights reserved.</p>
+      <p class="footer-copy">© 2026 Trusted Rewires UK. All rights reserved.</p>
     </div>
   </footer>
 
