@@ -410,6 +410,52 @@ header {
   font-style: italic;
 }
 
+/* ---- Why Rewire Benefits ---- */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 44px;
+}
+
+.benefit-item {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.benefit-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+  border-color: var(--amber);
+}
+
+.benefit-icon {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.benefit-item h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 10px;
+  letter-spacing: -0.2px;
+}
+
+.benefit-item p {
+  color: var(--muted);
+  font-size: 0.97rem;
+  line-height: 1.75;
+}
+
+@media (min-width: 640px) {
+  .benefits-grid { grid-template-columns: 1fr 1fr; }
+}
+
 /* ---- Signs ---- */
 .signs-grid {
   display: grid;
