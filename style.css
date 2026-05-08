@@ -203,12 +203,10 @@ header {
 .btn-primary {
   background: var(--amber);
   color: var(--navy);
-  box-shadow: 0 4px 14px rgba(245,158,11,0.4);
 }
 
 .btn-primary:hover {
   background: var(--amber-dark);
-  box-shadow: 0 6px 20px rgba(245,158,11,0.5);
 }
 
 .btn-secondary {
